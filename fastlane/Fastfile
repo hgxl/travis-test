@@ -1,9 +1,17 @@
 lane :funky do
   scan(
     code_coverage: true,
-    open_report: true,
+    open_report: false,
   )
   if git_branch() == "develop"
     print "OK Dev"
+  elsif git_branch() == "master"
+    funky_deploy
   end
+end
+
+lane :funky_deploy do
+
+  print "[!!] Deploy\n"
+
 end
