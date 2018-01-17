@@ -11,11 +11,9 @@ import UIKit
 
 
 extension Int {
-    
     public var isPair: Bool {
         return self % 2 == 0
     }
-    
 }
 
 
