@@ -5,12 +5,12 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: scan" time="49.069612">
+      <testcase classname="fastlane.lanes" name="0: scan" time="19.404929">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_branch" time="0.070057">
+      <testcase classname="fastlane.lanes" name="1: git_branch" time="0.026022">
         
       </testcase>
     

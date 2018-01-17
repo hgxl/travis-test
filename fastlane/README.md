@@ -22,6 +22,11 @@ xcode-select --install
 fastlane funky
 ```
 
+### funky_deploy
+```
+fastlane funky_deploy
+```
+
 
 ----
 
