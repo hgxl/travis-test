@@ -3,5 +3,7 @@ lane :funky do
     code_coverage: true,
     open_report: true,
   )
-  xcov
+  if git_branch() == "develop"
+    print "OK Dev"
+  end
 end
