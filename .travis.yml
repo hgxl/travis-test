@@ -11,6 +11,5 @@ notifications:
   email: false
 before_install:
   - gem install bundler
-  - brew update
-install: bundle exec pod install --repo-update --silent
+  - bundle install
 script: bundle exec fastlane funky
