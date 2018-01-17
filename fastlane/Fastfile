@@ -1,0 +1,7 @@
+lane :funky do
+  scan(
+    code_coverage: true,
+    open_report: true,
+  )
+  xcov
+end
