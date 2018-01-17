@@ -2,10 +2,10 @@
 <testsuites name='InAppNotificationFrameworkTests.xctest' tests='6' failures='0'>
   <testsuite name='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' tests='6' failures='0'>
     <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='test1' time='0.002'/>
-    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='test2' time='0.004'/>
+    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='test2' time='0.001'/>
     <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='test440' time='0.001'/>
     <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='testNeg' time='0.001'/>
-    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='testNeg2' time='0.001'/>
-    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='testZero' time='0.002'/>
+    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='testNeg2' time='0.002'/>
+    <testcase classname='InAppNotificationFrameworkTests.InAppNotificationFrameworkTests' name='testZero' time='0.001'/>
   </testsuite>
 </testsuites>

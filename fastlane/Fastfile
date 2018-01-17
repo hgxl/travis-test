@@ -5,14 +5,14 @@ lane :funky do
   )
   if git_branch() == "develop"
     print "OK Dev"
+    funky_deploy
   elsif git_branch() == "master"
     funky_deploy
   end
 end
 
 lane :funky_deploy do
-
   pod_lib_lint
+  pod_push
   print "[!!] Deploy\n"
-
 end
